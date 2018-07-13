@@ -1,0 +1,19 @@
+{
+    "name": "jdecool/collection-benchmark",
+    "authors": [
+        {
+            "name": "Jérémy DECOOL",
+            "email": "contact@jdecool.fr"
+        }
+    ],
+    "require": {
+        "phpbench/phpbench": "^0.14.0",
+        "illuminate/support": "^5.6",
+        "innmind/immutable": "^2.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bench\\": "lib"
+        }
+    }
+}
