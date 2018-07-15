@@ -7,6 +7,8 @@
         }
     ],
     "require": {
+        "php": "^7.0.0",
+        "ext-ds": "*",
         "phpbench/phpbench": "^0.14.0",
         "illuminate/support": "^5.6",
         "innmind/immutable": "^2.8"
@@ -15,5 +17,8 @@
         "psr-4": {
             "Bench\\": "lib"
         }
+    },
+    "require-dev": {
+        "php-ds/php-ds": "^1.2"
     }
 }
