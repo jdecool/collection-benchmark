@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6f014e740baa5a02c2fc95e4e2dd3a15",
+    "content-hash": "94302cffef05f2071df55f6750bca8c5",
     "packages": [
         {
             "name": "beberlei/assert",
@@ -949,6 +949,58 @@
                 "validator"
             ],
             "time": "2018-01-24T12:46:19+00:00"
+        },
+        {
+            "name": "spatie/typed",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/typed.git",
+                "reference": "40e4ac886a95db5e2efe489be4c699ff307c4b2b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/typed/zipball/40e4ac886a95db5e2efe489be4c699ff307c4b2b",
+                "reference": "40e4ac886a95db5e2efe489be4c699ff307c4b2b",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "larapack/dd": "^1.1",
+                "phpunit/phpunit": "^7.1",
+                "symfony/stopwatch": "^4.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\Typed\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Brent Roose",
+                    "email": "brent@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Improvements to PHP's type system in userland: generics, typed lists, tuples and structs",
+            "homepage": "https://github.com/spatie/typed",
+            "keywords": [
+                "generics",
+                "spatie",
+                "structs",
+                "tuple",
+                "typed",
+                "typed list"
+            ],
+            "time": "2018-07-23T13:34:33+00:00"
         },
         {
             "name": "symfony/console",
